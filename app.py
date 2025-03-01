@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Unit Converter")
 
 # Unit conversion
-conversion_types = ["Length", "Weight", "Temperature", "Volume"]
+conversion_types = ["Length", "Weight", "Temperature", "Volume", "Time"]
 conversion_choice = st.selectbox("Choose Conversion Type:", conversion_types)
 
 # Length conversion
